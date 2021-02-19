@@ -1,0 +1,100 @@
+/*Colors and fonts*/
+body {
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: Helvetica
+	font-size 17px;
+}
+h1, h2, h3 {
+	font-family: Courier;
+}
+h1 {
+color: red;
+font-size:32px;
+}
+h2 {
+	color: rgb(200, 100, 100);
+	font-size: 24px
+    font-weight :lighter ;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: red;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+@media (max-width: 2000px) {
+  .container {
+  	text-align: center;
+  	margin: 40px auto;
+    width: 700px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+  	text-align: center;
+  	margin: 40px auto;
+    width: 700px;
+    padding: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+  	text-align: center;
+  	margin: 40px auto;
+    width: 500px;
+    padding: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+  	text-align: center;
+  	margin: 40px auto;
+    width: 300px;
+    padding: 20px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: rgba(0,0,0,0.1);
+	padding: 20px;
+	border: thick double #32a1ce;
+
+}
+.card-white:hover {
+	background-color: lightblue;
+}
+
+#menu ul{
+  list-style: none;
+}
+#menu li{
+  display: inline;
+}
+
+.button {
+	  font: bold 11px Courier;
+	  text-decoration: none;
+	  background-color: #EEEEEE;
+	  color: #333333;
+	  padding: 2px 6px 2px 6px;
+	  border-top: 1px solid #CCCCCC;
+	  border-right: 1px solid #333333;
+	  border-bottom: 1px solid #333333;
+	  border-left: 1px solid #CCCCCC;
+}
+
+.button:hover {
+	background-color: lightgrey
+}
